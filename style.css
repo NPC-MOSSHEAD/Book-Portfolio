@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+
+@font-face {
+  font-family: P;
+  src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+  font-family: H;
+  src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+  font-family: N;
+  src: url(616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
+@font-face {
+  font-family: K;
+  src: url(Kaku_Dingbats.ttf);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -113,10 +135,12 @@ body {
 .profile-page h1 {
   font-size: 2.7rem;
   line-height: 1;
+  font-family: N;
 }
 .profile-page h3 {
   font-size: 1.5rem;
   color: var(--main-color);
+  font-family: P;
 }
 .profile-page .social-media {
   margin: 0.6rem 0 0.8rem;
@@ -141,6 +165,7 @@ body {
 }
 .profile-page p {
   text-align: justify;
+  font-family: H;
 }
 .profile-page .btn-box {
   margin-top: 1.2rem;
@@ -203,6 +228,7 @@ body {
 .title {
   text-align: center;
   margin-bottom: 1rem;
+  font-family: P;
 }
 .workeduc-box {
   border-left: var(--border);
