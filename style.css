@@ -464,3 +464,71 @@ body {
     height: 40rem;
   }
 }
+
+
+/* ===== MOBILE FIX PACK ===== */
+
+/* Global fixes */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  /* Stack everything vertically */
+  section, 
+  div {
+    max-width: 100%;
+  }
+
+  /* Fix flex layouts */
+  .container,
+  .wrapper,
+  .content,
+  .hero,
+  .about,
+  .projects,
+  .cards {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* Fix cards/projects width */
+  .card,
+  .project,
+  .box {
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+
+  /* Fix navbar if it overflows */
+  nav ul {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  nav li {
+    margin: 5px 0;
+  }
+
+  /* Center text on mobile */
+  h1, h2, h3, p {
+    text-align: center;
+  }
+}
